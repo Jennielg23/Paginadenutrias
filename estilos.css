@@ -1,0 +1,25 @@
+body {
+    background-color: #b797fc;
+    color: #000000;;
+    font-family: 'Pacifico', cursive;
+ 
+}
+h3 {
+    color: #9857a9;  
+    font: size 30px;
+}
+
+h1 {
+    color: #05172b;
+    font-size: xx-large
+}
+img{
+    width: 500px;
+    height: 300 px; 
+    border-style: groove;
+border-color:#f4b59a 
+    margin-left: 20px; 
+    margin-bottom: 40px;
+    padding: 20px;
+
+}

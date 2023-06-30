@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Esto es un comentario-->
+    <head>
+<title> Página de Nutrias</title>
+<meta charset="UTF-8">
+<link href="estilos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+<h1>Página de nutrias</h1>
+<h3>Imágenes de nutrias</h3>
+<!--Imagen desde internet-->
+<img src="https://www.elagoradiario.com/wp-content/uploads/2020/06/Retrato-corto-de-una-peque%C3%B1a-nutria-asi%C3%A1tica-u-oriental-Aonyx-cinerea-Gary-Perkin-1024x683.jpg"
+
+<!-- Imagen desde computadora-->
+<img src="imagenes/nutria.jpg"
+
+<!-- Crear enlaces externos -->
+<p> Si quieres ver más imágenes de nutrias <a href="https://www.pinterest.es/search/pins/?q=nutrias&rs=typed" target="_blank">dale clikc a este enlace </a>. </p>
+
+<h3> Listas de nutrias</h3>
+
+<p> 3 cosas que las nutrias <strong>aman</strong></p>
+
+<!-- Lista ordenada-->
+<ol>
+   <li> Agua </li>  <!--List item-->
+   <li> Nadar</li>
+   <li> Piedras </li>
+</ol>
+
+<p> 3 cosas que las nutrias <i>odian</i> </p>
+
+<!-- Lista desordenada-->
+<ul><!--Unordered List-->
+    <li> Caricias </li>
+    <li> Poca comida</li>
+    <li> Sentirse en peligro</li>
+
+</ul>
+
+<!---Formularios-->
+<form>
+    <!--Form con botones de radio-->
+    <p> ¿Tu nutria es cría o adulto?</p> 
+    <label>
+        <input id="cría" 
+        type="radio"
+        value="cría"
+        name="cría-adulto"
+        checked> Cría
+    </label>
+    <br>
+    <label>
+        <input id="adulto"
+        type="radio"
+        value="adulto"
+        name="cría-adulto">Adulto
+    </label>
+
+    <!--Form con casillas de verificación-->
+    <p>¿Qué tipo de personalidad tiene tu nutria?</p>
+    <label>
+        <input id=" tierno"
+        type="checkbox"
+        value="tierno"
+        name="personalidad"
+        checked> Tierno
+    </label>
+    <br>
+    <label>
+        <input id="amigable"
+        type="checkbox"
+        value="amigable"
+        name="personalidad"
+        checked> Amigable
+    </label>
+    <br>
+    <label>
+        <input id="Hiperactivo"
+        type="checkbox"
+        value="Hiperactivo"
+        name="personalidad"
+        checked> Hiperactivo
+    </label>
+    <br>
+    <label>
+        <input id="Agresivo"
+        type="checkbox"
+        value="Agresivo"
+        name="personalidad"
+        checked> Agresivo
+    </label>
+</form>
+
+    </body>
+
+    <footer>
+<p><small>Esta página fué creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank"> Tecnolochicas PRO </a></small>
+</p>
+    </footer>
+
+</html>
